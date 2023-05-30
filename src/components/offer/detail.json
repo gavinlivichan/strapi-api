@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_offer_details",
+  "info": {
+    "displayName": "detail"
+  },
+  "options": {},
+  "attributes": {
+    "cashback": {
+      "type": "component",
+      "repeatable": true,
+      "component": "offer.cashback"
+    },
+    "merchant": {
+      "type": "richtext"
+    },
+    "detail": {
+      "type": "richtext"
+    },
+    "instalment": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_blocks_ctas",
+  "info": {
+    "displayName": "cta"
+  },
+  "options": {},
+  "attributes": {
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary",
+        "muted"
+      ],
+      "default": "muted"
+    },
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "buttons": {
+      "displayName": "button",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.button"
+    }
+  }
+}

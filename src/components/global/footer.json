@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_global_footers",
+  "info": {
+    "displayName": "footer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "footerColumns": {
+      "displayName": "footer-columns",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.footer-columns"
+    },
+    "socialNetworks": {
+      "displayName": "social-networks",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.social-networks"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}
